@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+  background-color: black;
+    /* background-image: linear-gradient(90deg, #fd2b0f 10%, #ff0e0e 100%); */
+}
+nav{
+    width: 100%;
+    height: 100px;
+  font-weight: 400;
+    display: flex;
+    padding: 0px 40px;
+    align-items: center;
+    cursor: pointer;
+   
+}
+#menu{
+    padding: 2px 4px;
+    margin-left: 15px;
+}
+.option-of-nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 40%;
+    align-items:center;
+}
+.left-side-nav{
+    display: flex;
+    gap: 10%;
+    text-wrap: nowrap;
+    margin-left:40px;
+}
+#line-1{
+    height:2px;
+    width: 150px;
+    background-color: rgb(255, 33, 33);
+}
+#nav-center-area>img{
+    height: 50px;
+    width:100%;
+ cursor:not-allowed ;
+}
+#nav-center-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 130px;
+}
+#menu i>span:hover{
+       color: rgb(255, 124, 124) ;
+       transition: all 0.5s ease 0.5ms ;
+      
+}
+div h4:hover {
+    color: rgb(255, 124, 124) ;
+    transition: all 0.5s ease 0.5ms ;
+ 
+}    
+
+
+#line-2{
+    height:2px;
+    width: 150px;
+    background-color: rgb(255, 33, 33);
+
+}
+#right-side-nav{
+    display: flex;
+    gap: 12%;
+    align-items: center;
+    font-weight: 400;
+    text-wrap: nowrap;
+    margin-left:40px;
+
+}
+#right-side-nav>i{
+    margin-left: 70px;
+}
+#right-side-nav>i:hover{
+    color: rgb(255, 124, 124) ;
+    transition: all 0.5s ease-in-out 0.5ms ;
+    transform: scale(1.1);
+}
+main{
+    width: 100%;
+    height: calc(100% - 100px) ;
+   
+   display: flex;
+}
+#left{
+    margin-top: 10%;
+    height: 100%;
+    width: 38%;
+
+
+
+}
+#left div span{
+    margin:0px 10px;
+    font-size: 73px;
+    padding: 0px 12px;
+    line-height: 78px;
+    font-weight: 400;
+    word-spacing: 8px;
+
+}
+.coke-text{
+    color:rgb(255, 36, 36);
+    margin:0px 10px;
+    font-weight: 900;
+}
+#left div p{
+  margin-top: 50px;
+  line-height: 25px;
+  margin-left:10px ;
+  font-weight: 300;
+  word-spacing: 5px;
+
+
+}
+#left button{
+    background-color: rgb(252, 17, 17);
+    border: none;
+    margin-left: 5px;
+    padding: 15px 30px;
+ border-radius: 40px;
+ cursor: pointer;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+#left button:hover{
+    background-color: rgb(189, 0, 0);   
+    border-radius: 45px;
+    transition: all 0.5s ease 0.5ms;
+}
+
+.button-container-heart{
+    display: flex;
+    align-items: center;
+
+    gap: 5%;
+}
+.button-container-heart #wish-list{
+    cursor: pointer;
+     color:  rgb(252, 17, 17);
+     margin-top: 15px;
+     font-size: 30px;
+}
+#wish-list:hover{
+    color: rgb(190, 6, 6);   
+    border-radius: 45px;
+    transition: all 0.5s ease 0.5ms;
+}
+
+#center{
+    height: 100%;
+    width: 24%;
+    margin-top: 2%;
+}
+#right{
+    height: 100%;
+    width: 38%;
+ 
+}
+#center .center-div{
+    /* background-color: red; */
+    height:90%;
+    width: 95%;
+    background-image:url(https://wallpapers.com/images/high/coca-cola-background-z59ai0s6m8jeklge.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 2%;
+    margin-top: 4%;
+    filter: blur(4px), contrast(1.75);
+    filter: drop-shadow(1 1 0.75rem crimson);
+
+    filter: brightness(100%);
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+   
+ 
+}
+#right div{
+    height: 50%;
+    width:39%;
+    position:relative ;
+    top: 55%;
+    left: 15%;
+}
+#right div h3{
+    font-size: medium;
+    font-weight: 200;
+    padding: 15px 5px ;
+    border-bottom: 1px solid grey;
+}
+#right div h3 i{
+    margin-left: 35%;
+    
+}
+
+#right div h3 #add-icon2{
+    margin-left: 49%; 
+}
+#right div .heading-3{
+    border: none;
+}
+#right div  p{
+   
+    width: 100%;
+    text-wrap: nowrap;
+    font-weight:300;
+    color: gray;
+}
